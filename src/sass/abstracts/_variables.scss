@@ -1,0 +1,69 @@
+/// ==|====================
+/// Abstracts/Variables
+/// =======================
+// Text |===============
+$text__family: 'Roboto',
+sans-serif;
+$text__size--base: 16px;
+$text__line-height--base: 1.2;
+$text__weight--base: normal;
+//** Unit-less 'line-height' for use in components like buttons.
+$line-height--base: 1.428571429; // 20/14
+//** Computed "line-height" ('font-size' * 'line-height') for use with 'margin', 'padding', etc.
+$line-height--computed: floor(($text__size--base * $line-height--base)); // ~20px
+$base__transition: all .3s ease-in;
+// Headings |===========
+$headings__family: $text__family;
+$headins__weight: normal;
+$headings__size--h1: 2em;
+$headings__size--h2: 1.5em;
+$headings__size--h3: 1.17em;
+$headings__size--h4: 1em;
+$headings__size--h5: .83em;
+$headings__size--h6: .67em;
+// Z-Index |===========
+$zindex: ( overlay: 9000, dropdown: 8000, nav: 7000, header: 6000, footer: 5000, pseudo: 4000, default: 1, bottomless-pit: -10000);
+// Container |========
+$container__max-width: 1180px;
+//===================================================================================
+// Main Colors |=============
+$color-primary: $royal-blue;
+$color-secondary: $ivory;
+$color-accent: $regent-grey;
+$color-shadow: rgba($black, .125);
+$color-note: #666;
+// Common colors
+$color-background: $white;
+$color-background-shade: $iron;
+$color-background-invert: $crimson;
+$color-text: $charcoal;
+$color-text-weak: $regent-grey;
+$color-text-strong: $midnight-blue;
+$color-text-heading: $regent-grey;
+$color-text-invert: rgba($color-background, .75);
+$color-text-strong-invert: $color-background;
+$headings__color: $black;
+// Links
+$color-link: $color-primary;
+$color-link--hover: $midnight-blue;
+$color-link-decoration--hover: $crimson;
+$color-link--visited: $sky-blue;
+//border
+$color-border: $iron;
+// Code
+$color-code: #333;
+$color-code-background: #f3f3f3;
+$color-pre: #d4d4d4;
+$color-pre-background: #333;
+// Selections
+$color-selection: #b3d4fc;
+// Messages
+$color__success: $medium-sea-green;
+$color__notice: $dodger-blue;
+$color__warning: $gold;
+$color__error: $crimson;
+//overlays
+$overlay__black--lighter: rgba(0, 0, 0, .3);
+$overlay__black: rgba(0, 0, 0, .5);
+$overlay__black--darker: rgba(0, 0, 0, .8);
+$color__body: $white;

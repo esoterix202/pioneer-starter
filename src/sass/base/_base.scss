@@ -1,0 +1,54 @@
+/* ==|====================
+ * Base / Base
+ * ======================= */
+
+html {
+	box-sizing: border-box;
+	font-size: $text__size--base;
+	height: 100%;
+	line-height: $text__line-height--base;
+	font-family: $text__family;
+}
+
+* {
+	&::before,
+	&::after {
+		box-sizing: inherit;
+	}
+
+	&:hover {
+		transition: $base__transition;
+	}
+}
+
+body {
+	background-color: $color__body;
+	color: $color-text;
+	font-family: $text__family;
+	font-size: $text__size--base;
+	line-height: $text__line-height--base;
+	margin: 0;
+	min-height: 100%;
+	overflow-x: hidden;
+	text-rendering: optimizeLegibility;
+}
+
+.container {
+	@include center--block;
+	width: 100%;
+	max-width: $container__max-width;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+a {
+	background: transparent;
+	color: $color-link;
+	text-decoration: none;
+	transition: all .3s;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+}

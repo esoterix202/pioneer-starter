@@ -1,0 +1,42 @@
+{
+	"name": "pioneer-starter",
+	"version": "0.0.9",
+	"description": "Customized gulp starter, css resets and sass variables/mixins etc...",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/esoterix202/pioneer-starter.git"
+	},
+	"author": "Milos Milojevic - aka - esoterix202",
+	"license": "ISC",
+	"devDependencies": {
+		"browser-sync": "^2.24.5",
+		"gulp": "^3.9.1",
+		"gulp-autoprefixer": "^5.0.0",
+		"gulp-clean-css": "^3.9.4",
+		"gulp-concat": "^2.6.1",
+		"gulp-htmlmin": "^4.0.0",
+		"gulp-imagemin": "^4.1.0",
+		"gulp-jshint": "^2.1.0",
+		"gulp-plumber": "^1.2.0",
+		"gulp-postcss": "^7.0.1",
+		"gulp-rename": "^1.3.0",
+		"gulp-sass": "^4.0.1",
+		"gulp-sass-lint": "^1.4.0",
+		"gulp-size": "^3.0.0",
+		"gulp-strip-comments": "^2.5.2",
+		"gulp-uglify": "^2.1.2",
+		"jshint": "^2.9.5",
+		"jshint-stylish": "^2.2.1",
+		"postcss-flexbugs-fixes": "^3.3.1"
+	},
+	"dependencies": {},
+	"browserslist": [
+    "last 3 version",
+    "> 0.5%",
+    "not dead"
+  ]
+}
