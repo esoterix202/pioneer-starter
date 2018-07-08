@@ -1,4 +1,4 @@
-# Gulp Example/Starter App
+# Pioneer Starter Pack
 
 Welcome to the beta version of gulp-sass-bem starter I made to satisfy my current beginner's needs!
 
